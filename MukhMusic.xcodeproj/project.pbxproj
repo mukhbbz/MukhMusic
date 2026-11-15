@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641DE096309782550088EA49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DE095309782550088EA49 /* ViewController.swift */; };
+		641DE099309782550088EA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641DE097309782550088EA49 /* Main.storyboard */; };
+		641DE09E309782560088EA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641DE09C309782560088EA49 /* LaunchScreen.storyboard */; };
+		641DE0C730978EEE0088EA49 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DE0C6309785540088EA49 /* Song.swift */; };
+		641DE0CB30979A5E0088EA49 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DE0CA30979A5E0088EA49 /* PlayerViewController.swift */; };
+		64C6C588309F7A80006B8BC4 /* YouTubeSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6C587309F7A70006B8BC4 /* YouTubeSearchService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		641DE0A5309782560088EA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641DE086309782540088EA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641DE08D309782540088EA49;
+			remoteInfo = MukhMusic;
+		};
+		641DE0AF309782560088EA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641DE086309782540088EA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641DE08D309782540088EA49;
+			remoteInfo = MukhMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		641DE08E309782540088EA49 /* MukhMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MukhMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641DE095309782550088EA49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		641DE098309782550088EA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		641DE09D309782560088EA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		641DE0A4309782560088EA49 /* MukhMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MukhMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641DE0AE309782560088EA49 /* MukhMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MukhMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641DE0C6309785540088EA49 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		641DE0CA30979A5E0088EA49 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		64C6C587309F7A70006B8BC4 /* YouTubeSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		641DE0B6309782560088EA49 /* Exceptions for "MukhMusic" folder in "MukhMusic" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 641DE08D309782540088EA49 /* MukhMusic */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		641DE090309782540088EA49 /* MukhMusic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				641DE0B6309782560088EA49 /* Exceptions for "MukhMusic" folder in "MukhMusic" target */,
+			);
+			path = MukhMusic;
+			sourceTree = "<group>";
+		};
+		641DE0A7309782560088EA49 /* MukhMusicTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MukhMusicTests;
+			sourceTree = "<group>";
+		};
+		641DE0B1309782560088EA49 /* MukhMusicUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MukhMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641DE08B309782540088EA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DE0A1309782560088EA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DE0AB309782560088EA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641DE085309782540088EA49 = {
+			isa = PBXGroup;
+			children = (
+				64C6C587309F7A70006B8BC4 /* YouTubeSearchService.swift */,
+				641DE0C5309784E10088EA49 /* Controllers */,
+				641DE0C4309784D50088EA49 /* Views */,
+				641DE0C3309784C90088EA49 /* Models */,
+				641DE090309782540088EA49 /* MukhMusic */,
+				641DE0A7309782560088EA49 /* MukhMusicTests */,
+				641DE0B1309782560088EA49 /* MukhMusicUITests */,
+				641DE08F309782540088EA49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		641DE08F309782540088EA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641DE08E309782540088EA49 /* MukhMusic.app */,
+				641DE0A4309782560088EA49 /* MukhMusicTests.xctest */,
+				641DE0AE309782560088EA49 /* MukhMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641DE0C3309784C90088EA49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				641DE0C6309785540088EA49 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		641DE0C4309784D50088EA49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				641DE097309782550088EA49 /* Main.storyboard */,
+				641DE09C309782560088EA49 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		641DE0C5309784E10088EA49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				641DE095309782550088EA49 /* ViewController.swift */,
+				641DE0CA30979A5E0088EA49 /* PlayerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641DE08D309782540088EA49 /* MukhMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641DE0B7309782560088EA49 /* Build configuration list for PBXNativeTarget "MukhMusic" */;
+			buildPhases = (
+				641DE08A309782540088EA49 /* Sources */,
+				641DE08B309782540088EA49 /* Frameworks */,
+				641DE08C309782540088EA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				641DE090309782540088EA49 /* MukhMusic */,
+			);
+			name = MukhMusic;
+			packageProductDependencies = (
+			);
+			productName = MukhMusic;
+			productReference = 641DE08E309782540088EA49 /* MukhMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		641DE0A3309782560088EA49 /* MukhMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641DE0BC309782560088EA49 /* Build configuration list for PBXNativeTarget "MukhMusicTests" */;
+			buildPhases = (
+				641DE0A0309782560088EA49 /* Sources */,
+				641DE0A1309782560088EA49 /* Frameworks */,
+				641DE0A2309782560088EA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641DE0A6309782560088EA49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				641DE0A7309782560088EA49 /* MukhMusicTests */,
+			);
+			name = MukhMusicTests;
+			packageProductDependencies = (
+			);
+			productName = MukhMusicTests;
+			productReference = 641DE0A4309782560088EA49 /* MukhMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		641DE0AD309782560088EA49 /* MukhMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641DE0BF309782560088EA49 /* Build configuration list for PBXNativeTarget "MukhMusicUITests" */;
+			buildPhases = (
+				641DE0AA309782560088EA49 /* Sources */,
+				641DE0AB309782560088EA49 /* Frameworks */,
+				641DE0AC309782560088EA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641DE0B0309782560088EA49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				641DE0B1309782560088EA49 /* MukhMusicUITests */,
+			);
+			name = MukhMusicUITests;
+			packageProductDependencies = (
+			);
+			productName = MukhMusicUITests;
+			productReference = 641DE0AE309782560088EA49 /* MukhMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641DE086309782540088EA49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					641DE08D309782540088EA49 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					641DE0A3309782560088EA49 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 641DE08D309782540088EA49;
+					};
+					641DE0AD309782560088EA49 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 641DE08D309782540088EA49;
+					};
+				};
+			};
+			buildConfigurationList = 641DE089309782540088EA49 /* Build configuration list for PBXProject "MukhMusic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641DE085309782540088EA49;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 641DE08F309782540088EA49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641DE08D309782540088EA49 /* MukhMusic */,
+				641DE0A3309782560088EA49 /* MukhMusicTests */,
+				641DE0AD309782560088EA49 /* MukhMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		641DE08C309782540088EA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641DE09E309782560088EA49 /* LaunchScreen.storyboard in Resources */,
+				641DE099309782550088EA49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DE0A2309782560088EA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DE0AC309782560088EA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		641DE08A309782540088EA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641DE0C730978EEE0088EA49 /* Song.swift in Sources */,
+				64C6C588309F7A80006B8BC4 /* YouTubeSearchService.swift in Sources */,
+				641DE096309782550088EA49 /* ViewController.swift in Sources */,
+				641DE0CB30979A5E0088EA49 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DE0A0309782560088EA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641DE0AA309782560088EA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641DE0A6309782560088EA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641DE08D309782540088EA49 /* MukhMusic */;
+			targetProxy = 641DE0A5309782560088EA49 /* PBXContainerItemProxy */;
+		};
+		641DE0B0309782560088EA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641DE08D309782540088EA49 /* MukhMusic */;
+			targetProxy = 641DE0AF309782560088EA49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		641DE097309782550088EA49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641DE098309782550088EA49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		641DE09C309782560088EA49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641DE09D309782560088EA49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641DE0B8309782560088EA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MukhMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukh.MukhMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		641DE0B9309782560088EA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MukhMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukh.MukhMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		641DE0BA309782560088EA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		641DE0BB309782560088EA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		641DE0BD309782560088EA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukh.MukhMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MukhMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MukhMusic";
+			};
+			name = Debug;
+		};
+		641DE0BE309782560088EA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukh.MukhMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MukhMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MukhMusic";
+			};
+			name = Release;
+		};
+		641DE0C0309782560088EA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukh.MukhMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MukhMusic;
+			};
+			name = Debug;
+		};
+		641DE0C1309782560088EA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF46Q56WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukh.MukhMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MukhMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		641DE089309782540088EA49 /* Build configuration list for PBXProject "MukhMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DE0BA309782560088EA49 /* Debug */,
+				641DE0BB309782560088EA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641DE0B7309782560088EA49 /* Build configuration list for PBXNativeTarget "MukhMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DE0B8309782560088EA49 /* Debug */,
+				641DE0B9309782560088EA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641DE0BC309782560088EA49 /* Build configuration list for PBXNativeTarget "MukhMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DE0BD309782560088EA49 /* Debug */,
+				641DE0BE309782560088EA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641DE0BF309782560088EA49 /* Build configuration list for PBXNativeTarget "MukhMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641DE0C0309782560088EA49 /* Debug */,
+				641DE0C1309782560088EA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641DE086309782540088EA49 /* Project object */;
+}
